@@ -247,7 +247,7 @@ nav {
 
 .links a {
     background: var(--colorwhite);
-    color: var(--colordarkblue);
+    color: var(--colorgrey);
     font-size: 1.1rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
@@ -265,7 +265,6 @@ nav {
     nav {
         background: transparent;
     }
-
     .nav-center {
         width: 90vw;
         max-width: 1170px;
@@ -277,6 +276,9 @@ nav {
 
     .nav-header {
         padding: 0;
+    }
+    .nav-toggle {
+        display: none;
     }
 
     .links-container {
